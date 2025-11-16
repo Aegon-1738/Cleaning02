@@ -1,0 +1,125 @@
+
+.liste{
+    height:50vh;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.liste-non-ord,.liste-ord{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+ul,ol{
+    line-height: 1.5;
+}
+
+
+.para2-content p{
+    font-weight: 300;
+    /* color: ; */
+} 
+/* .para2-content h2{
+    font-weight: 300;
+    margin-left:60px;
+} */
+.objet{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+.objet h2{
+    font-weight: 400;
+}
+.ever{
+    height:40vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.image,.image1,.image2,.image3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image p,.image1 p,.image2 p,.image3 p{
+    font-weight: 700;
+}
+.one-image,.two-image,.three-image,.four-image{
+    height: 80px;
+    width: auto;
+    display: flex;
+    gap: 10px;
+   
+}
+.one-image p,.two-image p,.three-image p,.four-image p{
+    color: black;
+}
+.para3-content{
+    height:65vh;
+    width:100%;
+    background-color:lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+.content{
+    height:400px;
+    width: 450px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+}
+.photo img{
+    height: 400px;
+    width:450px;
+    border-radius:20px;
+}
+.word-two{
+    height:120px;
+    width:100%;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding: 5px;
+}
+.word-one h1{
+   font-weight: 400;
+}
+.word-two p{
+    font-weight:350;
+}
+.footer-content{
+    height:50px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height:10vh;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+}

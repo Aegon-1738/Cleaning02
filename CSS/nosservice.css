@@ -1,0 +1,220 @@
+
+.first-content{
+    height:65vh;
+    width: 100%;
+    /* background:linear-gradient(to bottom right,#8DE9D5,#32C4C0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
+
+.photo-image img{
+     height: 350px;
+     width: 400px;
+     border-radius: 5px;
+    box-shadow:5px 0px 0px 0px  white;
+
+}
+ .key img{
+    height:100px;
+    width: 100px;
+    border-radius: 5px;
+    position: absolute;
+    right:780px;
+    bottom:100px;
+    box-shadow:0px 0px 0px 5px  white;
+    /* transform: scaleX(1.5); */
+}
+.para p{
+    font-size:16px;
+    font-weight: 300;
+    text-align: justify;
+    color: lightseagreen;
+}
+.para h2{
+    font-weight:400;
+
+}
+.para{
+    height: 350px;
+    width: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding:10px;
+}
+.principal{
+    height:50vh;
+    width: 100%;
+    background-color:lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal h2{
+    font-weight: 400;
+    text-align: center;
+}
+.sommaire{
+    height:9vh;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-all{
+    height:120vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns:310px 310px 310px 310px;
+    place-items: center;
+    place-content: center;
+    row-gap:30px;
+
+}
+
+.residentiel,.bureaux,.apres,.travaux,.vitres,.desin,.auto,.espace{
+    height:360px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 10px;
+}
+.fet p,.fet1 p,.fet2 p,.fet3 p,.fet4 p,.fet5 p,.fet6 p,.fet7 p{
+   color: black;
+}
+#sure{
+    color:rgb(0, 126, 128);
+    font-weight:400;
+}
+.image img,.image1 img,.image2 img,.image3 img,.image4 img,.image5 img,.image6 img,.image7 img,.image10 img,.image11 img{
+    height:200px;
+    width:260px;
+    border-radius:5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.container-content{
+    height:120vh;
+    width: 100%;
+    /* background-color: dodgerblue; */
+    /* background-color: lightseagreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-content h1{
+    font-weight: 400;
+    margin-left:100px;
+
+}
+.devis{
+    height:50vh;
+    width: 100%;
+    /* background:linear-gradient(to bottom right,#8DE9D5,#32C4C0); */
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.devis p {
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    
+}
+
+.content-both{
+    height:550px;
+    width: 100%;
+    /* background-color: burlywood; */
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    place-content: center;
+    row-gap: 50px;
+    
+
+}
+.rest,.rest1,.rest2,.rest3,.rest4,.rest5,.rest6,.rest7{
+    height:200px;
+    width:200px;
+    /* background-color:silver; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.rest:hover{
+    transform: scaleY(1.1);
+}
+
+.ress,.ress1,.ress2,.ress3,.ress4,.ress5,.ress6,.ress7{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ress p,.ress1 p,.ress2 p,.ress3 p,.ress4 p,.ress5 p,.ress6 p,.ress7 p{
+    font-weight: 700;
+}
+.point p,.point1 p,.point2 p,.point3 p,.point4 p,.point5 p,.point6 p,.point7 p{
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+footer{
+    height:60px;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+.footer-content{
+    height:50px;
+    width:500px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entretien{
+    height: 300px;
+    width: 100%;
+    /* background:linear-gradient(to bottom right,#8DE9D5,#32C4C0); */
+    background-color: lightseagreen;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entretien h3{
+    text-align: center;
+    font-weight: 400;
+}
+.button7 button,.button6 button,.button5 button,.button4 button,.button3 button,.button2 button,.button1 button{
+    height:30px;
+    width:100px;
+    border: none;
+  background:lightseagreen;
+    color: white;
+    border-radius:20px;
+}
+
