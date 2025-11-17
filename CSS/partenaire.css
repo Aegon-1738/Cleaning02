@@ -146,7 +146,7 @@
    height:50px;
    font-weight: 400;
 }
-footer{
+/* footer{
     height:80px;
     width: 100%;
     background-color: silver;
@@ -154,14 +154,38 @@ footer{
     justify-content: center;
     align-items: center;
     border-top: 1px solid gray;
-}
-.footer-content{
+}  */
+/* .footer-content{
     height:50px;
     width:500px;
-    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ footer{
+    height:40vh;
+    width: 100%;
+    background-color:silver;
+ }
+ .all-footer{
+    height:30vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+.copy{
+    height:10vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.copy p{
+color: lightseagreen;
+font-weight: 700;
+border-top: 1px solid lightseagreen;
+}
+
 
 

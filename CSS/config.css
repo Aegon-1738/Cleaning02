@@ -71,24 +71,6 @@ a:hover{
    
     background-color: lightseagreen;
 }
-/* a {
-  color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  color: purple;
-}
-
-a:hover {
-  text-decoration: underline;
-
-}
-
-a:active {
-  color: #ff0000;
-} */
-
 .div-btn{
     height:60px;
     width: 120px;
@@ -142,86 +124,5 @@ button:hover{
 
 /*      ======================================  FOOTER      ===================================== */
 
-
-
-
-
-
-
- footer{
-    height:40vh;
-    width: 100%;
-    background-color: silver;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid gray; */
-}
-.footer-content{
-    height:60px;
-    width:450px;
-    display: flex;
-    /* background-color: lightsalmon; */
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-} 
-.nom-email h3 {
-     color: lightseagreen;
-}
-.got{
-    font-weight: bold;
-    color: lightseagreen;
-    font-size: 16px;
-}
-
-  .copy{
-    height: 8vh;
-    width: 100%;
-    background-color: silver;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .copy p{
-    color: lightseagreen;
-    font-weight: 700;
-    border-top:1px solid black ;
-    padding: 20px;
-  }
-  .all-footer{
-    height:40vh;
-    width:100%;
-    /* background-color: green; */
-  }
-  .footer{
-    height:40vh;
-    width: 100%;
-    /* background-color: yellow; */
-    /* background-color:black; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .clean{
-    height: 40px;
-    width:200px;
-    background-color: silver;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 /*      ======================================  FOOTER      ===================================== */

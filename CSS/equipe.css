@@ -116,11 +116,12 @@
 .table{
     height: 60vh;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color:whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 table{
     height: 300px;
     width: 600px;
@@ -129,28 +130,36 @@ table{
 
 }
 th,td{
-    /* background-color:burlywood; */
+
     background-color: lightseagreen;
 }
 caption{
-    color:white;
+    color:black;
     font-weight: 800;
 }
 
 
-footer{
+ footer{
+    height:40vh;
+    width: 100%;
+    background-color:silver;
+ }
+ .all-footer{
+    height:30vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+.copy{
     height:10vh;
     width: 100%;
-    background-color: silver;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid gray;
 }
-.footer-content{
-    height:50px;
-    width:500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.copy p{
+color: lightseagreen;
+font-weight: 700;
+border-top: 1px solid lightseagreen;
 }

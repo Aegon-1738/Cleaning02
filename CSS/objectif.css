@@ -7,8 +7,17 @@
     justify-content:space-evenly;
     align-items: center;
 }
-.liste-non-ord,.liste-ord{
+.liste-non{
     height: 300px;
+    width:400px;
+    display: flex;
+    justify-content:center;
+    gap:60px;
+    align-items: center;
+    flex-direction: column;
+}
+.liste-ord{
+      height: 300px;
     width: 400px;
     display: flex;
     justify-content:center;
@@ -19,23 +28,16 @@
 ul,ol{
     line-height: 1.5;
 }
-
-
 .para2-content p{
     font-weight: 300;
-    /* color: ; */
 } 
-/* .para2-content h2{
-    font-weight: 300;
-    margin-left:60px;
-} */
+
 .objet{
     height: 15vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: green; */
 }
 .objet h2{
     font-weight: 400;
@@ -107,19 +109,27 @@ ul,ol{
 .word-two p{
     font-weight:350;
 }
-.footer-content{
-    height:50px;
-    width:500px;
+ footer{
+    height:40vh;
+    width: 100%;
+    background-color:silver;
+ }
+ .all-footer{
+    height:30vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+.copy{
+    height:10vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-footer{
-    height:10vh;
-    width: 100%;
-    background-color: silver;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid gray;
+.copy p{
+color: lightseagreen;
+font-weight: 700;
+border-top: 1px solid lightseagreen;
 }
